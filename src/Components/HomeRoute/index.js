@@ -95,7 +95,7 @@ class HomeRoute extends Component {
                     className="Remove-button"
                     onClick={() => this.onRemoveEvent(eachItem)}
                   >
-                    Remove
+                    <p>Remove</p>
                   </button>
                 </div>
               </li>
