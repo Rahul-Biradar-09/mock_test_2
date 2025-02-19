@@ -81,7 +81,7 @@ class HomeRoute extends Component {
         <h1 className="Head">Visited Countries</h1>
         {imageList.length !== 0 && (
           <ul className="Visited-container">
-            {imageList.map(eachItem => (
+            {imageList.sort().map(eachItem => (
               <li className="Visited-items" key={eachItem.id}>
                 <img
                   src={eachItem.imageUrl}
