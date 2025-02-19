@@ -40,8 +40,8 @@ const initialCountriesList = [
     name: 'Netherlands',
     imageUrl:
       'https://assets.ccbp.in/frontend/react-js/visit-countries-netherland-img.png',
-    isVisited: true,
-    isClicked: true,
+    isVisited: false,
+    isClicked: false,
   },
   {
     id: '3c988dec-55e1-477d-a9e2-b354fd559849',
